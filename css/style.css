@@ -2602,3 +2602,14 @@ i.icon-wechat::before {
 	font-size: 18px;
 	line-height: 1;
 }
+
+/* ── Force FA6 brand icons to render correctly ── */
+.tokyo_tm_home .social ul li a i.fa-brands,
+.tokyo_tm_home .social ul li a .fa-brands {
+	font-family: "Font Awesome 6 Brands" !important;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
