@@ -117,6 +117,13 @@ function tokyo_tm_trigger_menu(){
 		mobileMenu.removeClass('opened');
 		return false;
 	});
+
+	jQuery(window).on('resize', function(){
+		if(jQuery(window).width() > 1200){
+			hamburger.removeClass('is-active');
+			mobileMenu.removeClass('opened');
+		}
+	});
 }
 
 // -------------------------------------------------
